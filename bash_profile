@@ -3,7 +3,4 @@ parse_git_branch() {
 }
 
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\W\[\033[00m\]\$(parse_git_branch)\[\033[00m\] $ "
-
-CLICOLOR=1
-LSCOLORS=ExFxBxDxCxegedabagacad
-alias ls='ls -GFh'
+alias ls="ls -lG"
